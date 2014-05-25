@@ -23,13 +23,13 @@ void loop(){
   digitalWrite(5, HIGH); //RED LED
     
   int counter = 0;  
-    while (counter <=5) {
+    while (counter <=500) {
       delay (250); //wait for a quarter second
       //toggle the LEDs
       digitalWrite(4, LOW); 
       digitalWrite(5, LOW);
       counter++; 
-      delay (1000); //wait for another quarter second
+      delay (250); //wait for another quarter second
       digitalWrite(4, HIGH); 
       digitalWrite(5, HIGH); 
     }
